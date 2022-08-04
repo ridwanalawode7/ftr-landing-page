@@ -1,4 +1,22 @@
-@use 'sass:list';
+@font-face {
+  font-family: 'Azonix';
+  src: url("webfont/azonix-1vb0-webfont.woff2") format("woff2"), url("webfont/azonix-1vb0-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("webfont/poppins-regular-webfont.woff2") format("woff2"), url("webfont/poppins-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("./webfont/BebasNeue-Regular.woff") format("woff"), url("./webfont/BebasNeue-Regular.ttf") format("truetype"), url("./webfont/BebasNeue-Regular.eot") format("embedded-opentype");
+}
+
 @-webkit-keyframes animation {
   from {
     -webkit-transform: rotateZ(0);
@@ -9,6 +27,7 @@
             transform: rotateZ(360deg);
   }
 }
+
 @keyframes animation {
   from {
     -webkit-transform: rotateZ(0);
@@ -100,27 +119,27 @@ body {
 }
 
 h1 {
-  font-family: Poppins, Montserrat;
+  font-family: "Poppins", Montserrat;
   text-align: center;
   font-size: 2.625em;
   line-height: calc(100 / 91);
 }
 
 h2 {
-  font-family: Poppins, Montserrat;
+  font-family: "Poppins", Montserrat;
   text-align: center;
   font-size: 2.25em;
   line-height: calc(74 / 56);
 }
 
 h3 {
-  font-family: Poppins, Montserrat;
+  font-family: "Poppins", Montserrat;
   text-align: center;
   font-size: 1.5em;
 }
 
 p {
-  font-family: Poppins, Montserrat;
+  font-family: "Poppins", Montserrat;
   text-align: center;
   font-size: 1em;
 }

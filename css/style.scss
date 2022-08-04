@@ -1,4 +1,30 @@
-@use 'sass:list';
+@font-face {
+    font-family: 'Azonix';
+    src: url('webfont/azonix-1vb0-webfont.woff2') format('woff2'),
+         url('webfont/azonix-1vb0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('webfont/poppins-regular-webfont.woff2') format('woff2'),
+         url('webfont/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./webfont/BebasNeue-Regular.woff') format('woff'),
+    url('./webfont/BebasNeue-Regular.ttf') format('truetype'),
+    url('./webfont/BebasNeue-Regular.eot') format('embedded-opentype');
+}
 
 $max-width: 1920px;
 
@@ -8,7 +34,7 @@ $color-o: #ff6600;
 $color-b: #00aad4;
 $color-g: #00d455;
 
-$g-font-stack: Poppins, Montserrat;
+$g-font-stack: 'Poppins', Montserrat;
 $s-font-stack: 'Bebas Neue', Impact;
 $font-size: 16px;
 
